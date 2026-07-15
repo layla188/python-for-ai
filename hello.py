@@ -87,6 +87,7 @@ for x in range(1, 6):
     colors.add("yellow")
     colors.remove("blue")    # Error if not found
     colors.discard("yellow") # No error if not found
+    #error handling
     try:
         age = int(input("Enter your age: "))
         print(f"In 10 years, you'll be {age + 10}")
